@@ -10,6 +10,6 @@ public class ProjectConfiguration {
 
 	@Bean
     public BasicAuthRequestInterceptor basicAuthRequestInterceptor() {
-        return new BasicAuthRequestInterceptor("abdaal12@gmail.com", "The@12345");
+        return new BasicAuthRequestInterceptor("abdaal12@gmail.com", "12345");
     }
 }
